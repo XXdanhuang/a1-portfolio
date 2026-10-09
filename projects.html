@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My UX, serious game, and teamwork projects.">
+  <title>MY PROJECTS ✦ | Usagi Land Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Usagi Land home">
+        ✿ USAGI LAND <span>★</span>
+      </a>
+
+      <button class="menu-toggle" type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="main-nav">
+        ☰ Menu
+      </button>
+
+      <nav id="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active" aria-current="page">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-banner">
+      <p class="eyebrow">
+        ✦ いらっしゃい！ · WELCOME TO MY LITTLE WORLD ✦
+      </p>
+      <h1>MY PROJECTS ✦</h1>
+      <p class="lead">
+        Little ideas, big curiosity, and lots of learning along the way.
+      </p>
+    </section>
+
+    <section class="container">
+      <div class="section-heading">
+        <span>02 / SELECTED WORK</span>
+        <h2>My little adventures ✿</h2>
+        <p>Explore the projects I've been working on.</p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- PROJECT 1: UI/UX -->
+        <article class="project-card">
+
+          <div class="project-art pink-art" aria-hidden="true">
+            ✿ <span>UI / UX</span> ✿
+          </div>
+
+          <div class="project-copy">
+            <p class="tag">COURSE PROJECT</p>
+
+            <img
+              src="assets/屏幕截图 2026-10-09 145801.png"
+              alt="Screenshot of my UI/UX design project"
+              class="portfolio-image"
+            >
+
+            <h3>Interface Design &amp; Prototyping</h3>
+
+            <p>
+              Exploring user flows, interface design,
+              and visual prototypes using Figma.
+            </p>
+
+            <button class="pill detail-button"
+              type="button" data-project="figma">
+              View details ↗
+            </button>
+          </div>
+        </article>
+
+        
+<!-- PROJECT 2: SERIOUS GAME -->
+<article class="project-card">
+
+  <!-- Blue header -->
+  <div class="project-art blue-art" aria-hidden="true">
+    ★ <span>PLAY / LEARN</span> ★
+  </div>
+
+  <!-- White content area -->
+  <div class="project-copy">
+
+    <p class="tag">RESEARCH IN PROGRESS</p>
+
+    <img
+      src="assets/屏幕截图 2026-10-09 152056.png"
+      alt="Serious Game research collage about animals"
+      class="portfolio-image"
+    >
+
+    <h3>Serious Game Concept</h3>
+
+    <p>
+      Investigating how interactive experiences might
+      encourage empathy toward animals and reflection
+      on shared spaces.
+    </p>
+
+    <button
+      class="pill detail-button"
+      type="button"
+      data-project="game">
+      View details ↗
+    </button>
+
+  </div>
+</article>
+
+
+    
+
+<!-- PROJECT 3: THINK BEFORE YOU PROMPT -->
+<article class="project-card">
+
+  <div class="project-art yellow-art" aria-hidden="true">
+    ♡ <span>TEAM DESIGN</span> ♡
+  </div>
+
+  <div class="project-copy">
+    <p class="tag">UI/UX PROJECT</p>
+
+    <img
+      src="assets/屏幕截图 2026-10-09 153244.png"
+      alt="Think Before You Prompt project screenshot"
+      class="portfolio-image"
+    >
+
+    <h3>Think Before You Prompt</h3>
+
+    <p>
+      An interactive prototype exploring how people
+      engage with AI prompts and digital interfaces.
+    </p>
+
+    <a
+      class="pill figma-link"
+      href="https://www.figma.com/proto/opYlqGiFzDbK3w63hY41xL/Think-before-you-prompt?node-id=0-1&amp;t=IfOtOh6yLcRsjnNt-1"
+      target="_blank"
+      rel="noopener noreferrer">
+      View Figma Prototype ↗
+    </a>
+  </div>
+
+</article>
+
+
+
+      </div>
+    </section>
+
+    <!-- Project detail popup -->
+    <dialog id="project-dialog" aria-labelledby="dialog-title">
+      <button class="close-dialog"
+        type="button"
+        aria-label="Close project details">×</button>
+
+      <p class="tag" id="dialog-type"></p>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-description"></p>
+      <p id="dialog-next"></p>
+    </dialog>
+
+  </main>
+
+  <footer class="footer">
+    <p>✿ Made with curiosity, HTML, CSS &amp; a little YAHO! ✿</p>
+    <p>© 2026 My Little Portfolio · Fan-inspired visual theme; not affiliated with Chiikawa.</p>
+    <a href="index.html">Back home ↑</a>
+  </footer>
+</body>
+</html>

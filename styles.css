@@ -1,0 +1,169 @@
+/* Usagi Land — original fan-inspired styling; no official character artwork */
+:root{--cream:#fffaf0;--yellow:#ffe47b;--pink:#ffdce9;--blue:#d9edff;--peach:#ffdfc4;--mint:#dff4d9;--ink:#443a40;--shadow:#d5bfa8}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"Trebuchet MS",Verdana,sans-serif;line-height:1.65}a{color:inherit}button,input,textarea{font:inherit}button{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #3467b2;outline-offset:4px}.skip{position:absolute;left:12px;top:-70px;background:#fff;padding:12px;z-index:100}.skip:focus{top:8px}.site-header{background:var(--yellow);border-bottom:3px solid var(--ink);position:relative;z-index:2}.nav-wrap{max-width:1150px;margin:auto;min-height:86px;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:12px 24px}.brand{font-size:1.35rem;font-weight:900;text-decoration:none;letter-spacing:.06em}.brand span{color:#ef739e}nav{display:flex;gap:10px;flex-wrap:wrap}nav a{padding:8px 14px;border-radius:24px;text-decoration:none;font-weight:700}nav a:hover,nav a.active{background:white;box-shadow:3px 3px 0 var(--ink)}.menu-toggle{display:none;background:white;border:2px solid var(--ink);border-radius:14px;padding:8px 14px}.page-banner{text-align:center;background:var(--yellow);padding:58px 20px 66px;border-bottom:3px dashed #e9bf60}.eyebrow,.tag,.sticker,.section-heading>span{font-size:.79rem;letter-spacing:.11em;font-weight:900}.page-banner h1{font-size:clamp(2.4rem,6vw,4.7rem);line-height:1.15;margin:16px 0;text-shadow:3px 4px 0 #fff}.lead{max-width:680px;margin:auto;font-size:1.15rem}.container{max-width:1120px;margin:0 auto;padding:65px 24px}.home-layout,.two-col{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center}.speech,.paper,.project-card,.quest{background:#fff;border:3px solid var(--ink);border-radius:28px;box-shadow:8px 9px 0 var(--shadow)}.speech,.paper{padding:36px}.speech h2{font-size:clamp(2rem,4vw,3.6rem);line-height:1.2}.accent{color:#ed759a}.sticker{display:inline-block;background:var(--pink);border:2px solid var(--ink);border-radius:50px;padding:5px 13px;transform:rotate(-3deg)}.actions{display:flex;flex-wrap:wrap;gap:14px;margin:25px 0}.pill{display:inline-block;border:2px solid var(--ink);border-radius:99px;padding:11px 20px;background:white;text-decoration:none;font-weight:900;box-shadow:3px 4px 0 var(--ink);transition:transform .18s,box-shadow .18s}.pill:hover{transform:translateY(-3px);box-shadow:4px 7px 0 var(--ink)}.pill.primary{background:var(--yellow)}.yaho{border:0;background:transparent;color:#a84d72;text-decoration:underline;font-weight:900}.character-stage{min-height:385px;background:#fff3ca;border:3px dashed #d8ad63;border-radius:40px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden}.sparkle{position:absolute;font-size:3rem;color:#e994b0}.s1{top:30px;left:32px}.s2{right:35px;bottom:55px}.rabbit{width:225px;height:285px;position:relative;animation:bob 3s ease-in-out infinite}.ear{position:absolute;top:0;width:67px;height:157px;background:#fff5cd;border:4px solid var(--ink);border-radius:55% 55% 40% 40%;z-index:0}.left-ear{left:35px;transform:rotate(-11deg)}.right-ear{right:35px;transform:rotate(11deg)}.ear-inside{position:absolute;inset:18px 17px 22px;background:#f9b8c8;border-radius:50%}.rabbit-head{position:absolute;top:102px;left:12px;width:201px;height:155px;background:var(--yellow);border:4px solid var(--ink);border-radius:48% 48% 45% 45%;z-index:1}.eye{position:absolute;top:67px;width:12px;height:18px;border-radius:50%;background:var(--ink)}.left-eye{left:57px}.right-eye{right:57px}.cheek{position:absolute;top:90px;width:32px;height:18px;border-radius:50%;background:#f4a1ae}.left-cheek{left:23px}.right-cheek{right:23px}.mouth{position:absolute;left:86px;top:76px;font-size:28px;font-weight:900}.rabbit-body{position:absolute;bottom:0;left:62px;width:103px;height:65px;border:4px solid var(--ink);border-radius:50%;background:var(--yellow)}.character-note{text-align:center;font-size:.73rem;padding:0 16px;max-width:320px}.section-heading{text-align:center;margin-bottom:30px}.section-heading h2{font-size:clamp(1.8rem,4vw,2.8rem);margin:10px}.tiles,.project-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.tile{border:3px solid var(--ink);border-radius:26px;padding:25px;text-decoration:none;box-shadow:5px 6px 0 var(--ink);transition:transform .2s}.tile:hover{transform:translateY(-7px) rotate(-1deg)}.tile h3{margin:8px 0}.tile-emoji{font-size:2.5rem}.pink{background:var(--pink)}.blue{background:var(--blue)}.peach{background:var(--peach)}.mint{background:var(--mint)}.cute-list{padding-left:20px}.cute-list li{margin:12px 0}.side-note{background:var(--pink)}.chip-wrap{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}.chip-wrap span{border:2px solid var(--ink);background:#fff;border-radius:40px;padding:10px 18px;font-weight:700}.centered{text-align:center;margin-top:35px}.project-grid{grid-template-columns:repeat(3,1fr)}.project-card{overflow:hidden}.project-art{height:180px;display:flex;justify-content:center;align-items:center;gap:15px;font-size:2rem;font-weight:900}.project-art span{font-size:1.1rem}.pink-art{background:var(--pink)}.blue-art{background:var(--blue)}.yellow-art{background:var(--yellow)}.project-copy{padding:25px}.project-copy h3{font-size:1.4rem;line-height:1.3}.detail-button{margin-top:12px}.timeline{display:grid;gap:25px;max-width:850px;margin:auto}.quest{padding:28px;display:grid;grid-template-columns:100px 1fr;gap:25px}.quest-year{background:var(--yellow);border:2px solid var(--ink);border-radius:50%;height:90px;width:90px;display:grid;place-items:center;font-weight:900}.quest h2{margin:0}.small{font-size:.85rem}label{display:block;font-weight:800;margin:15px 0 5px}input,textarea{width:100%;border:2px solid var(--ink);border-radius:14px;padding:12px;background:#fffdf8}form button{margin-top:18px}.footer{text-align:center;background:var(--yellow);border-top:3px solid var(--ink);padding:30px 20px;font-size:.87rem}dialog{max-width:550px;width:calc(100% - 32px);border:3px solid var(--ink);border-radius:25px;padding:35px;box-shadow:8px 9px 0 var(--shadow);color:var(--ink)}dialog::backdrop{background:rgba(35,30,35,.62)}.close-dialog{float:right;border:2px solid var(--ink);border-radius:50%;background:var(--pink);width:40px;height:40px;font-size:1.5rem}@keyframes bob{50%{transform:translateY(-10px)}}@media(max-width:850px){.home-layout,.two-col{grid-template-columns:1fr}.tiles{grid-template-columns:repeat(2,1fr)}.project-grid{grid-template-columns:1fr 1fr}}@media(max-width:620px){.nav-wrap{align-items:flex-start;flex-wrap:wrap}.menu-toggle{display:block;margin-left:auto}nav{display:none;width:100%;flex-direction:column}nav.open{display:flex}nav a{width:100%}.container{padding:40px 18px}.speech,.paper{padding:24px}.tiles,.project-grid{grid-template-columns:1fr}.quest{grid-template-columns:1fr}.quest-year{width:75px;height:75px}.page-banner{padding:45px 18px}.character-stage{min-height:350px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rabbit{animation:none}*{transition:none!important}}
+.usagi-photo {
+  text-align: center;
+  padding: 20px;
+}
+
+.usagi-photo img {
+  width: 260px;
+  max-width: 90%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.usagi-photo img:hover {
+  transform: rotate(8deg) scale(1.08);
+}
+.portfolio-image {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 2px solid #463b35;
+  margin-bottom: 18px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-image:hover {
+  transform: scale(1.03);
+}
+
+/* ===== PROJECT CARDS: FINAL IMAGE LAYOUT ===== */
+
+/* Keep the card content in normal document flow */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Top decorative area */
+.project-card .project-art {
+  position: relative;
+  width: 100%;
+  height: 225px;
+  min-height: 225px;
+  flex: 0 0 225px;
+  box-sizing: border-box;
+}
+
+/* Serious Game image stays ONLY in the top area */
+.project-card .serious-game-art {
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  background: #dcecff;
+}
+
+/* Image fills the top without covering text */
+.project-card .serious-game-cover {
+  display: block;
+  position: static;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: center;
+  transform: none;
+}
+
+/* White content area below each cover */
+.project-card .project-copy {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #ffffff;
+}
+
+/* UI/UX image inside the white content area */
+.project-card .portfolio-image {
+  display: block;
+  position: static;
+  width: 100%;
+  height: 260px;
+  max-width: 100%;
+  object-fit: cover;
+  border: 2px solid #463b35;
+  border-radius: 18px;
+  margin: 14px 0 22px;
+}
+
+/* Keep buttons aligned near the bottom */
+.project-card .detail-button {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+/* Prevent old hover rules from moving the image */
+.project-card .serious-game-cover:hover {
+  transform: none;
+}
+
+@media (max-width: 600px) {
+  .project-card .project-art {
+    height: 200px;
+    min-height: 200px;
+    flex-basis: 200px;
+  }
+
+  .project-card .portfolio-image {
+    height: 220px;
+  }
+}
+
+/* About Me - Personal Photo */
+
+.about-card {
+  display: flow-root;
+}
+
+.about-photo-frame {
+  float: right;
+  width: 180px;
+  margin: 0 0 22px 26px;
+  padding: 8px 8px 28px;
+  background: #ffffff;
+  border: 2px solid #443b43;
+  border-radius: 16px;
+  box-shadow: 7px 7px 0 #f6c9d9;
+  transform: rotate(4deg);
+  text-align: center;
+}
+
+.about-photo {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.photo-caption {
+  display: block;
+  margin-top: 9px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #443b43;
+}
+
+/* Mobile Layout */
+@media (max-width: 600px) {
+  .about-photo-frame {
+    float: none;
+    width: 190px;
+    margin: 18px auto 30px;
+  }
+
+  .about-photo {
+    height: 210px;
+  }
+}

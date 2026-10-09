@@ -1,54 +1,32 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+INF 133 - Assignment 1: Personal Portfolio
 
-A reminder on academic integrity, as described in the syllabus.
+PROJECT
+Usagi Land is a multi-page, rabbit-inspired portfolio built with plain HTML, CSS, and JavaScript. The rabbit is an original CSS illustration, NOT an official Chiikawa image. The project is not affiliated with Chiikawa.
 
-In general, the course staff expects that you will look at code and examples from many online resources as part of the assignments, particularly to resolve syntax and understand frameworks. We expect that you'll use other libraries you find, and will even require it in some assignments. These practices are often critical to the work of developers today. The best developers are adept at interpreting the examples they see, customizing them to their specific situation, and citing their sources so they can find them later. We expect you to do the same.
+PAGES
+index.html, about.html, projects.html, experience.html, contact.html
 
-While learning from examples is encouraged, attempting to pass an existing project or example from the web as your own is not allowed. If you ever have a question about what is or is not appropriate, feel free to ask the course staff!
+HOW TO RUN
+Open index.html directly in Chrome. All links and assets use relative paths; no server or dependencies required.
 
-Talking to classmates about class material, assignment requirements, etc. is a great way to verify ideas and get feedback. But this distinctly does *not* permit attempting to pass off someone else’s code as your own. Talking over ideas and approaches is allowed, but the work that you produce and submit must be your own.
+REQUIREMENT CHECKLIST
+Basic HTML: headings and paragraphs; links to external/email destinations; multiple pages with navigation; semantic header/main/section/article/footer; descriptive original mascot image via role=img and aria-label.
+Basic CSS: custom colors; margins/padding; grid and responsive layouts.
+Advanced features: multi-page navigation; grid layout; accessible project detail dialog; contact form with mailto behavior; JavaScript interactive button.
+Responsiveness: breakpoints at 850px and 620px, mobile navigation toggle.
 
-1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
+BEFORE SUBMITTING
+1. Replace placeholder email yourname@example.com in contact.html AND script.js.
+2. Review all biographical and project descriptions for accuracy. Add your own project images if desired.
+3. Run HTML validation for ALL FIVE HTML files, CSS validation, and accessibility checks. Save JPG screenshots named valid-html-index.jpg etc., valid-css-index.jpg etc., valid-accessibility-index.jpg etc. for each page as required by your instructor. These have NOT been completed yet.
+4. Complete the following required fields truthfully:
+Assignment points I believe I completed: [fill in]
+Accessibility warnings/errors intentionally ignored and why: [fill in after testing]
+Hours spent: [fill in]
+Online resources consulted (URLs): [fill in]
+People/classmates consulted: [fill in]
+5. Zip the repository folder for Canvas submission, including screenshots.
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
-
-2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
-
-(a) Basic features
-
-
-
-(b) CSS features
-
-
-
-(c) Advanced features
-
-
-
-
-3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
-
-
-4. How long, in hours, did it take you to complete this assignment?
-
-
-
-5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
-
-
-6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
-
-
-7. Is there anything special we need to know in order to run your code?
-
+NOTES
+Contact form opens the visitor's email app; it does not send directly or store messages.
+No official character images or third-party image assets are included.
